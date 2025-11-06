@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Sitemap: https://mahdinazari23.github.io/sitemap.xml
+Disallow:
+
+Sitemap: https://lightforgirls.github.io/sitemap.xml
