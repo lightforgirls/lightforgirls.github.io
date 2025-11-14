@@ -5,9 +5,19 @@
     <lastmod>2025-11-06</lastmod>
     <priority>1.0</priority>
   </url>
-    <url>
+  <url>
     <loc>https://lightforgirls.github.io/about.html</loc>
     <lastmod>2025-11-12</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lightforgirls.github.io/programs.html</loc>
+    <lastmod>2025-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lightforgirls.github.io/icdl.html</loc>
+    <lastmod>2025-11-14</lastmod>
+    <priority>0.7</priority>
   </url>
 </urlset>
