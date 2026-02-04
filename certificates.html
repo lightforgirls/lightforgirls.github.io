@@ -84,45 +84,55 @@
   </div>
 
   <script>
-  // گرفتن کد از URL
   const params = new URLSearchParams(window.location.search);
-  const code = params.get("code"); // مثلا CERT-2026-001
+const code = params.get("code");
+const className = params.get("class");
 
-  // مسیر فایل JSON (برای یک کلاس)
-  fetch("data/icdlround1a.json")
+let jsonFile = "";
+
+switch (className) {
+  case "ICDL":
+    jsonFile = "data/icdlround1a.json";
+    break;
+  //case "Photoshop":
+  //  jsonFile = "data/photoshop_round1.json";
+  //  break;
+  // اگر کلاس جدید اضافه شد، همینجا یک case جدید اضافه کن
+  default:
+    document.getElementById("status").textContent = "❌ Class not found";
+}
+
+if (jsonFile) {
+  fetch(jsonFile)
     .then(response => response.json())
     .then(data => {
-      // پیدا کردن شاگرد با کد
       const cert = data.find(item => item.code === code);
 
-      // المان‌های HTML که قراره اطلاعات درونشون بره
       const nameEl = document.getElementById("name");
       const courseEl = document.getElementById("course");
       const avgEl = document.getElementById("avg");
       const statusEl = document.getElementById("status");
 
       if (cert) {
-        // پر کردن اطلاعات
         nameEl.textContent = cert.name;
         courseEl.textContent = cert.course;
         avgEl.textContent = cert.average_score;
 
-        // پیام تأیید معتبر بودن
         statusEl.textContent = "✅ This certificate is valid and has been officially issued.";
         statusEl.classList.add("valid");
       } else {
-        // اگر کد پیدا نشد
         statusEl.textContent = "❌ Certificate not found or invalid.";
         statusEl.classList.add("invalid");
       }
     })
     .catch(() => {
-      // اگر JSON لود نشد
       const statusEl = document.getElementById("status");
       statusEl.textContent = "⚠️ Error loading certificate data.";
       statusEl.classList.add("invalid");
     });
-</script>
+}
+
+  </script>
 
 </body>
 </html>
