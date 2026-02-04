@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>تأیید سرتیفیکیت</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #f3f3f3;
+      font-family: sans-serif;
+      direction: rtl;
+    }
+
+    .certificate {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 32px;
+    }
+
+    .status {
+      margin-top: 40px;
+      padding: 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .valid {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .invalid {
+      background: #fdecea;
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="certificate">
+    <div class="center">
+      <img src="img/newlogo.png" class="logo" alt="Logo">
+      <h1>Certificate of Completion</h1>
+    </div>
+
+    <p class="center">This certificate is proudly presented to</p>
+    <h2 class="center" id="name">—</h2>
+
+    <p class="center">
+      for successfully completing the course
+    </p>
+
+    <h3 class="center" id="course">—</h3>
+
+    <p class="center">
+      Average Assignment Score:
+      <strong id="avg">—</strong> / 10
+    </p>
+
+    <div id="status" class="status">
+      ...Verifying certificate
+    </div>
+  </div>
+
+  <script>
+  // گرفتن کد از URL
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get("code"); // مثلا CERT-2026-001
+
+  // مسیر فایل JSON (برای یک کلاس)
+  fetch("data/icdlround1a.json")
+    .then(response => response.json())
+    .then(data => {
+      // پیدا کردن شاگرد با کد
+      const cert = data.find(item => item.code === code);
+
+      // المان‌های HTML که قراره اطلاعات درونشون بره
+      const nameEl = document.getElementById("name");
+      const courseEl = document.getElementById("course");
+      const avgEl = document.getElementById("avg");
+      const statusEl = document.getElementById("status");
+
+      if (cert) {
+        // پر کردن اطلاعات
+        nameEl.textContent = cert.name;
+        courseEl.textContent = cert.course;
+        avgEl.textContent = cert.average_score;
+
+        // پیام تأیید معتبر بودن
+        statusEl.textContent = "✅ This certificate is valid and has been officially issued.";
+        statusEl.classList.add("valid");
+      } else {
+        // اگر کد پیدا نشد
+        statusEl.textContent = "❌ Certificate not found or invalid.";
+        statusEl.classList.add("invalid");
+      }
+    })
+    .catch(() => {
+      // اگر JSON لود نشد
+      const statusEl = document.getElementById("status");
+      statusEl.textContent = "⚠️ Error loading certificate data.";
+      statusEl.classList.add("invalid");
+    });
+</script>
+
+</body>
+</html>
