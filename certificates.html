@@ -79,6 +79,11 @@
       <strong id="avg">—</strong>
     </p>
 
+    <p class="center">
+      Certificate ID:
+      <strong id="code">—</strong>
+    </p>
+
     <div id="status" class="status">
       ...Verifying certificate
     </div>
@@ -115,12 +120,14 @@ if (jsonFile) {
       const nameEl = document.getElementById("name");
       const courseEl = document.getElementById("course");
       const avgEl = document.getElementById("avg");
+      const codeEl = document.getElementById("code");
       const statusEl = document.getElementById("status");
 
       if (cert) {
         nameEl.textContent = cert.name;
         courseEl.textContent = cert.course;
         avgEl.textContent = cert.average_score;
+        codeEl.textContent = cert.code;
 
         statusEl.textContent = "✅ This certificate is valid and has been officially issued.";
         statusEl.classList.add("valid");
