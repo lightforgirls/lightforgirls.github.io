@@ -1,0 +1,98 @@
+[
+  {
+    "code": "LFG-01B-7035",
+    "name": "Marzia Bostani",
+    "course": "ICDL",
+    "assignments_completed": 14,
+    "assignments_total": 31,
+    "average_score": "46.22%"
+  },
+  {
+    "code": "LFG-01B-9949",
+    "name": "Razeya Faqiri",
+    "course": "ICDL",
+    "assignments_completed": 31,
+    "assignments_total": 31,
+    "average_score": "99.39%"
+  },
+  {
+    "code": "LFG-01B-5543",
+    "name": "Tabasum Hussaini",
+    "course": "ICDL",
+    "assignments_completed": 31,
+    "assignments_total": 31,
+    "average_score": "99.49%"
+  },
+  {
+    "code": "LFG-01B-7188",
+    "name": "Tooba Safi",
+    "course": "ICDL",
+    "assignments_completed": 9,
+    "assignments_total": 31,
+    "average_score": "36.63%"
+  },
+  {
+    "code": "LFG-01B-1801",
+    "name": "Sara Mostamandi",
+    "course": "ICDL",
+    "assignments_completed": 9,
+    "assignments_total": 31,
+    "average_score": "36.73%"
+  },
+  {
+    "code": "LFG-01B-1110",
+    "name": "Maryam Mosa Zada",
+    "course": "ICDL",
+    "assignments_completed": 16,
+    "assignments_total": 31,
+    "average_score": "51.02%"
+  },
+  {
+    "code": "LFG-01B-2982",
+    "name": "Narges Yaqubi",
+    "course": "ICDL",
+    "assignments_completed": 30,
+    "assignments_total": 31,
+    "average_score": "96.84%"
+  },
+  {
+    "code": "LFG-01B-6159",
+    "name": "Sahida Quraishi",
+    "course": "ICDL",
+    "assignments_completed": 31,
+    "assignments_total": 31,
+    "average_score": "99.18%"
+  },
+  {
+    "code": "LFG-01B-6738",
+    "name": "Khadija Karimi",
+    "course": "ICDL",
+    "assignments_completed": 17,
+    "assignments_total": 31,
+    "average_score": "52.45%"
+  },
+  {
+    "code": "LFG-01B-1782",
+    "name": "Mursal Mahmoodi",
+    "course": "ICDL",
+    "assignments_completed": 20,
+    "assignments_total": 31,
+    "average_score": "75.82%"
+  },
+  {
+    "code": "LFG-01B-7351",
+    "name": "Mursal Sayedzada",
+    "course": "ICDL",
+    "assignments_completed": 11,
+    "assignments_total": 31,
+    "average_score": "40.10%"
+  },
+  {
+    "code": "LFG-01B-2218",
+    "name": "Sadia Ashna",
+    "course": "ICDL",
+    "assignments_completed": 6,
+    "assignments_total": 31,
+    "average_score": "29.90%"
+  }
+]
