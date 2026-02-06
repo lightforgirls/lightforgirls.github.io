@@ -13,7 +13,7 @@
     "course": "ICDL",
     "assignments_completed": 31,
     "assignments_total": 31,
-    "average_score": "99.40%"
+    "average_score": "100%"
   },
   {
     "code": "LFG-01B-5543",
@@ -21,7 +21,7 @@
     "course": "ICDL",
     "assignments_completed": 31,
     "assignments_total": 31,
-    "average_score": "99.50%"
+    "average_score": "100%"
   },
   {
     "code": "LFG-01B-7188",
@@ -45,7 +45,7 @@
     "course": "ICDL",
     "assignments_completed": 16,
     "assignments_total": 31,
-    "average_score": "65.00%"
+    "average_score": "66.00%"
   },
   {
     "code": "LFG-01B-2982",
@@ -53,7 +53,7 @@
     "course": "ICDL",
     "assignments_completed": 30,
     "assignments_total": 31,
-    "average_score": "96.90%"
+    "average_score": "97.90%"
   },
   {
     "code": "LFG-01B-6159",
@@ -61,7 +61,7 @@
     "course": "ICDL",
     "assignments_completed": 31,
     "assignments_total": 31,
-    "average_score": "99.20%"
+    "average_score": "100%"
   },
   {
     "code": "LFG-01B-6738",
@@ -77,7 +77,7 @@
     "course": "ICDL",
     "assignments_completed": 20,
     "assignments_total": 31,
-    "average_score": "80.10%"
+    "average_score": "81.10%"
   },
   {
     "code": "LFG-01B-7351",
@@ -85,7 +85,7 @@
     "course": "ICDL",
     "assignments_completed": 11,
     "assignments_total": 31,
-    "average_score": "40.10%"
+    "average_score": "41.10%"
   },
   {
     "code": "LFG-01B-2218",
@@ -93,6 +93,6 @@
     "course": "ICDL",
     "assignments_completed": 6,
     "assignments_total": 31,
-    "average_score": "29.90%"
+    "average_score": "30.90%"
   }
 ]
