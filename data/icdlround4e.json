@@ -1,0 +1,50 @@
+[
+  {
+    "code": "LFG-04E-4607",
+    "name": "Nelofar Nawabi",
+    "course": "ICDL",
+    "assignments_completed": 0,
+    "assignments_total": 26,
+    "average_score": "100%"
+  },
+  {
+    "code": "LFG-04E-4189",
+    "name": "Malalai Zaher Jabarkhail",
+    "course": "ICDL",
+    "assignments_completed": 2,
+    "assignments_total": 26,
+    "average_score": "10%"
+  },
+  {
+    "code": "LFG-04E-4881",
+    "name": "Maryam Aryan",
+    "course": "ICDL",
+    "assignments_completed": 20,
+    "assignments_total": 26,
+    "average_score": "77%"
+  },
+  {
+    "code": "LFG-04E-1193",
+    "name": "Shabnam Fayeez",
+    "course": "ICDL",
+    "assignments_completed": 2,
+    "assignments_total": 26,
+    "average_score": "10%"
+  },
+  {
+    "code": "LFG-04E-4446",
+    "name": "Ganjina Omar Kambiz",
+    "course": "ICDL",
+    "assignments_completed": 1,
+    "assignments_total": 26,
+    "average_score": "6%"
+  },
+  {
+    "code": "LFG-04E-4808",
+    "name": "Frouhar Badghisi",
+    "course": "ICDL",
+    "assignments_completed": 10,
+    "assignments_total": 26,
+    "average_score": "36%"
+  }
+]
