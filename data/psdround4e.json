@@ -1,0 +1,82 @@
+[
+  {
+    "code": "LFG-04E-1858",
+    "name": "Parwin Haidari",
+    "course": "Photoshop",
+    "assignments_completed": 10,
+    "assignments_total": 21,
+    "average_score": "55%"
+  },
+  {
+    "code": "LFG-04E-2116",
+    "name": "Fatima Loqmani",
+    "course": "Photoshop",
+    "assignments_completed": 5,
+    "assignments_total": 21,
+    "average_score": "22%"
+  },
+  {
+    "code": "LFG-04E-9751",
+    "name": "Yalda Amarkhail",
+    "course": "Photoshop",
+    "assignments_completed": 19,
+    "assignments_total": 21,
+    "average_score": "99%"
+  },
+  {
+    "code": "LFG-04E-7684",
+    "name": "Leeza Amarkhail",
+    "course": "Photoshop",
+    "assignments_completed": 20,
+    "assignments_total": 21,
+    "average_score": "100%"
+  },
+  {
+    "code": "LFG-04E-1123",
+    "name": "Naila Mirzayei",
+    "course": "Photoshop",
+    "assignments_completed": 0,
+    "assignments_total": 21,
+    "average_score": "0%"
+  },
+  {
+    "code": "LFG-04E-1539",
+    "name": "Yasamin Rahimi",
+    "course": "Photoshop",
+    "assignments_completed": 13,
+    "assignments_total": 21,
+    "average_score": "70%"
+  },
+  {
+    "code": "LFG-04E-9949",
+    "name": "Razeya Faqiri",
+    "course": "Photoshop",
+    "assignments_completed": 20,
+    "assignments_total": 21,
+    "average_score": "100%"
+  },
+  {
+    "code": "LFG-04E-1823",
+    "name": "Seyar Amarkhail",
+    "course": "Photoshop",
+    "assignments_completed": 7,
+    "assignments_total": 21,
+    "average_score": "34%"
+  },
+  {
+    "code": "LFG-04E-5424",
+    "name": "Gulshah Safa",
+    "course": "Photoshop",
+    "assignments_completed": 1,
+    "assignments_total": 21,
+    "average_score": "5%"
+  },
+  {
+    "code": "",
+    "name": "",
+    "course": "",
+    "assignments_completed": "",
+    "assignments_total": "",
+    "average_score": ""
+  }
+]
