@@ -1,0 +1,82 @@
+[
+  {
+    "code": "LFG-08H-4753",
+    "name": "Zinab Mosavi",
+    "course": "ICDL",
+    "assignments_completed": 20,
+    "assignments_total": 31,
+    "average_score": "70%"
+  },
+  {
+    "code": "LFG-08H-1033",
+    "name": "Asma Yunosi",
+    "course": "ICDL",
+    "assignments_completed": 3,
+    "assignments_total": 31,
+    "average_score": "10%"
+  },
+  {
+    "code": "LFG-08H-8988",
+    "name": "Salma Azimi",
+    "course": "ICDL",
+    "assignments_completed": 0,
+    "assignments_total": 31,
+    "average_score": "0%"
+  },
+  {
+    "code": "LFG-08H-0134",
+    "name": "Qahirah Moammadi",
+    "course": "ICDL",
+    "assignments_completed": 23,
+    "assignments_total": 31,
+    "average_score": "80%"
+  },
+  {
+    "code": "LFG-08H-5117",
+    "name": "Maryam Rahimi",
+    "course": "ICDL",
+    "assignments_completed": 0,
+    "assignments_total": 31,
+    "average_score": "0%"
+  },
+  {
+    "code": "LFG-08H-9663",
+    "name": "Amina Ahmadi",
+    "course": "ICDL",
+    "assignments_completed": 31,
+    "assignments_total": 31,
+    "average_score": "100%"
+  },
+  {
+    "code": "LFG-08H-6151",
+    "name": "Kahinat Amini",
+    "course": "ICDL",
+    "assignments_completed": 2,
+    "assignments_total": 31,
+    "average_score": "10%"
+  },
+  {
+    "code": "LFG-08H-7057",
+    "name": "Tabasum Jamalzada",
+    "course": "ICDL",
+    "assignments_completed": 29,
+    "assignments_total": 31,
+    "average_score": "94%"
+  },
+  {
+    "code": "LFG-08H-1007",
+    "name": "Fatema Nawruzi",
+    "course": "ICDL",
+    "assignments_completed": 0,
+    "assignments_total": 31,
+    "average_score": "0%"
+  },
+  {
+    "code": "LFG-08H-0179",
+    "name": "Mobina Faizy",
+    "course": "ICDL",
+    "assignments_completed": 29,
+    "assignments_total": 31,
+    "average_score": "94%"
+  }
+]
