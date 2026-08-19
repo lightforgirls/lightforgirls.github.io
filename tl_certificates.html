@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/techlighttransparent.png">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #f3f3f3;
+      font-family: sans-serif;
+      direction: rtl;
+    }
+
+    .certificate {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 220px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 32px;
+    }
+
+    .status {
+      margin-top: 40px;
+      padding: 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .valid {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .invalid {
+      background: #fdecea;
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="certificate">
+    <div class="center">
+      <img src="img/techlighttransparent.png" class="logo" alt="Logo">
+      <h1>Certificate of Completion</h1>
+    </div>
+
+    <p class="center">This certificate is proudly presented to</p>
+    <h2 class="center" id="name">—</h2>
+
+    <p class="center">
+      for successfully completing the course
+    </p>
+
+    <h3 class="center" id="course">—</h3>
+
+    <p class="center">
+      Average Assignment Score:
+      <strong id="avg">—</strong>
+    </p>
+
+    <p class="center">
+      Certificate ID:
+      <strong id="code">—</strong>
+    </p>
+
+    <div id="status" class="status">
+      ...Verifying certificate
+    </div>
+  </div>
+
+  <script>
+  const params = new URLSearchParams(window.location.search);
+const code = params.get("code");
+const className = params.get("class");
+
+let jsonFile = "";
+
+switch (className) {
+  case "ICDL11L":
+    jsonFile = "data/icdlround11l.json";
+    break;
+  //case "Photoshop":
+  //  jsonFile = "data/photoshop_round1.json";
+  //  break;
+  // اگر کلاس جدید اضافه شد، همینجا یک case جدید اضافه کن
+  default:
+    document.getElementById("status").textContent = "❌ Class not found";
+}
+
+if (jsonFile) {
+  fetch(jsonFile)
+    .then(response => response.json())
+    .then(data => {
+      const cert = data.find(item => item.code === code);
+
+      const nameEl = document.getElementById("name");
+      const courseEl = document.getElementById("course");
+      const avgEl = document.getElementById("avg");
+      const codeEl = document.getElementById("code");
+      const statusEl = document.getElementById("status");
+
+      if (cert) {
+        nameEl.textContent = cert.name;
+        courseEl.textContent = cert.course;
+        avgEl.textContent = cert.average_score;
+        codeEl.textContent = cert.code;
+
+        statusEl.textContent = "✅ This certificate is valid and has been officially issued.";
+        statusEl.classList.add("valid");
+      } else {
+        statusEl.textContent = "❌ Certificate not found or invalid.";
+        statusEl.classList.add("invalid");
+      }
+    })
+    .catch(() => {
+      const statusEl = document.getElementById("status");
+      statusEl.textContent = "⚠️ Error loading certificate data.";
+      statusEl.classList.add("invalid");
+    });
+}
+
+  </script>
+
+</body>
+</html>
