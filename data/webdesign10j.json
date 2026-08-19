@@ -1,0 +1,58 @@
+[
+  {
+    "code": "TL-10J-1858",
+    "name": "Parwin Haidary",
+    "course": "WEB DESIGN",
+    "assignments_completed": 14,
+    "assignments_total": 20,
+    "average_score": "66%"
+  },
+  {
+    "code": "TL-10J-9258",
+    "name": "Rohina Niazi",
+    "course": "WEB DESIGN",
+    "assignments_completed": 15,
+    "assignments_total": 20,
+    "average_score": "70%"
+  },
+  {
+    "code": "TL-10J-2116",
+    "name": "Fatima Loqmani",
+    "course": "WEB DESIGN",
+    "assignments_completed": 3,
+    "assignments_total": 20,
+    "average_score": "13%"
+  },
+  {
+    "code": "TL-10J-7602",
+    "name": "Storai Nasih",
+    "course": "WEB DESIGN",
+    "assignments_completed": 0,
+    "assignments_total": 20,
+    "average_score": "0%"
+  },
+  {
+    "code": "TL-10J-9751",
+    "name": "Yalda Amarkhail",
+    "course": "WEB DESIGN",
+    "assignments_completed": 4,
+    "assignments_total": 20,
+    "average_score": "17%"
+  },
+  {
+    "code": "TL-10J-7684",
+    "name": "Leeza Amarkhail",
+    "course": "WEB DESIGN",
+    "assignments_completed": 19,
+    "assignments_total": 20,
+    "average_score": "96%"
+  },
+  {
+    "code": "TL-10J-1801",
+    "name": "Sara Mostamandi",
+    "course": "WEB DESIGN",
+    "assignments_completed": 0,
+    "assignments_total": 20,
+    "average_score": "0%"
+  }
+]
