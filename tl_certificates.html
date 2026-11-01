@@ -74,6 +74,11 @@
     <h3 class="center" id="course">—</h3>
 
     <p class="center">
+      Assignments Done:
+      <strong id="assdone">—</strong> Out Of <strong id="asstotal">—</strong> Assignments.
+    </p>
+
+    <p class="center">
       Average Assignment Score:
       <strong id="avg">—</strong>
     </p>
@@ -102,6 +107,9 @@ switch (className) {
   case "ICDL12M":
     jsonFile = "data/icdlround12m.json";
     break;
+  case "ICDL13N":
+    jsonFile = "data/icdlround13n.json";
+    break;
   case "WEB10J":
     jsonFile = "data/webdesign10j.json";
     break;
@@ -121,6 +129,8 @@ if (jsonFile) {
 
       const nameEl = document.getElementById("name");
       const courseEl = document.getElementById("course");
+      const assdoneEl = document.getElementById("assdone");
+      const asstotalEl = document.getElementById("asstotal");
       const avgEl = document.getElementById("avg");
       const codeEl = document.getElementById("code");
       const statusEl = document.getElementById("status");
@@ -128,6 +138,8 @@ if (jsonFile) {
       if (cert) {
         nameEl.textContent = cert.name;
         courseEl.textContent = cert.course;
+        assdoneEl.textContent = cert.assignments_completed;
+        asstotalEl.textContent = cert.assignments_total;
         avgEl.textContent = cert.average_score;
         codeEl.textContent = cert.code;
 

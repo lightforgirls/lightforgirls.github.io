@@ -1,0 +1,50 @@
+[
+  {
+    "code": "TL-13N-4269",
+    "name": "Ayarsultan Hamdard",
+    "course": "ICDL",
+    "assignments_completed": 29,
+    "assignments_total": 34,
+    "average_score": "83%"
+  },
+  {
+    "code": "TL-13N-8707",
+    "name": "Abeda Sarwary",
+    "course": "ICDL",
+    "assignments_completed": 27,
+    "assignments_total": 34,
+    "average_score": "78%"
+  },
+  {
+    "code": "TL-13N-6856",
+    "name": "Almah Karimi",
+    "course": "ICDL",
+    "assignments_completed": 18,
+    "assignments_total": 34,
+    "average_score": "55%"
+  },
+  {
+    "code": "TL-13N-4993",
+    "name": "Nazella Hasib Quraishi",
+    "course": "ICDL",
+    "assignments_completed": 26,
+    "assignments_total": 34,
+    "average_score": "76%"
+  },
+  {
+    "code": "TL-13N-0771",
+    "name": "Safia Safi",
+    "course": "ICDL",
+    "assignments_completed": 34,
+    "assignments_total": 34,
+    "average_score": "100%"
+  },
+  {
+    "code": "TL-13N-7857",
+    "name": "Zahra Hussaini",
+    "course": "ICDL",
+    "assignments_completed": 34,
+    "assignments_total": 34,
+    "average_score": "100%"
+  }
+]
